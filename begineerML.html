@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ML & DL Beginner Resources</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: Arial, sans-serif;
+    }
+    .topic-section {
+      margin-bottom: 50px;
+    }
+    .card {
+      border-radius: 12px;
+    }
+    .card-header {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="./index.html">ML Hub</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbars">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbars">
+        <ul class="navbar-nav ms-auto">
+          <!-- <li class="nav-item"><a class="nav-link" href="#profiles">Researchers</a></li>
+          <li class="nav-item"><a class="nav-link" href="#blogs">Blogs</a></li>  -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div class="container my-5">
+  <h1 class="text-center mb-4">📚 Beginner Resources for ML & DL</h1>
+  <p class="text-center">A topic-wise guide to start your Machine Learning and Deep Learning journey</p>
+
+  <!-- Machine Learning Basics -->
+  <div class="topic-section">
+    <h2>1️⃣ Machine Learning Basics</h2>
+    <div class="accordion" id="mlBasics">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#introML">
+            Introduction to ML
+          </button>
+        </h2>
+        <div id="introML" class="accordion-collapse collapse show" data-bs-parent="#mlBasics">
+          <div class="accordion-body">
+            <ul>
+              <li><a href="https://www.coursera.org/learn/machine-learning" target="_blank">Andrew Ng’s ML Course</a></li>
+              <li><a href="https://www.youtube.com/watch?v=Gv9_4yMHFhI" target="_blank">ML in 10 Minutes (YouTube)</a></li>
+              <li><a href="https://scikit-learn.org/stable/supervised_learning.html" target="_blank">Scikit-learn Documentation</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mlTypes">
+            Types of ML
+          </button>
+        </h2>
+        <div id="mlTypes" class="accordion-collapse collapse" data-bs-parent="#mlBasics">
+          <div class="accordion-body">
+            <p><b>Supervised, Unsupervised & Reinforcement Learning:</b></p>
+            <ul>
+              <li><a href="https://towardsdatascience.com/supervised-vs-unsupervised-learning-14f68e32ea8d" target="_blank">Supervised vs Unsupervised Learning</a></li>
+              <li><a href="https://spinningup.openai.com/" target="_blank">OpenAI Spinning Up (Reinforcement Learning)</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Machine Learning Models -->
+  <div class="topic-section">
+    <h2>2️⃣ Machine Learning Models Explained</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <div class="card-header">Linear Regression</div>
+          <div class="card-body">
+            <p>Predicts a continuous numeric value by fitting the best linear relationship between variables.</p>
+            <a href="https://scikit-learn.org/stable/modules/linear_model.html#ordinary-least-squares" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+            <a href="https://www.scaler.com/topics/course/free-supervised-learning-course/video/1357/" target="_blank" class="btn btn-primary btn-sm">Lets Deep DIve</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <div class="card-header">Logistic Regression</div>
+          <div class="card-body">
+            <p>Used for binary/multi-class classification by modeling probabilities with the logistic function.</p>
+            <a href="https://towardsdatascience.com/logistic-regression-detailed-overview-46c4da4303bc" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+            <a href="https://www.scaler.com/topics/course/free-supervised-learning-course/video/1295/" target="_blank" class="btn btn-primary btn-sm">Lets Deep DIve</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <div class="card-header">Decision Trees</div>
+          <div class="card-body">
+            <p>A tree-based model that splits data into branches for classification or regression tasks.</p>
+            <a href="https://scikit-learn.org/stable/modules/tree.html" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+            <a href="https://www.scaler.com/topics/course/free-supervised-learning-course/video/1508/" target="_blank" class="btn btn-primary btn-sm">Lets Deep DIve</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <div class="card-header">Ensemble Learning</div>
+          <div class="card-body">
+            <p>Combines multiple models (like bagging, boosting, random forests) to improve accuracy.</p>
+            <a href="https://www.datacamp.com/tutorial/random-forests-classifier-python" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+            <a href="https://www.scaler.com/topics/course/free-supervised-learning-course/video/1523/" target="_blank" class="btn btn-primary btn-sm">Lets Deep DIve</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <div class="card-header">Support Vector Machines</div>
+          <div class="card-body">
+            <p>Finds an optimal hyperplane that separates classes in high-dimensional space.</p>
+            <a href="https://scikit-learn.org/stable/modules/svm.html" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+            <a href="https://www.scaler.com/topics/course/free-supervised-learning-course/video/1490/" target="_blank" class="btn btn-primary btn-sm">Lets Deep DIve</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <div class="card-header">Naive Bayes</div>
+          <div class="card-body">
+            <p>A probabilistic classifier based on Bayes' theorem, assuming feature independence.</p>
+            <a href="https://scikit-learn.org/stable/modules/naive_bayes.html" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+            <a href="https://www.scaler.com/topics/course/free-supervised-learning-course/video/1450/" target="_blank" class="btn btn-primary btn-sm">Lets Deep DIve</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <div class="card-header">K-Nearest Neighbors (KNN)</div>
+          <div class="card-body">
+            <p>A supervised learning method that classifies data points based on their closest neighbors.</p>
+            <a href="https://scikit-learn.org/stable/modules/neighbors.html" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+            <a href="https://www.scaler.com/topics/course/free-supervised-learning-course/video/1373/" target="_blank" class="btn btn-primary btn-sm">Lets Deep DIve</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <div class="card-header">K-Means Clustering</div>
+          <div class="card-body">
+            <p>An unsupervised algorithm that partitions data into <i>K</i> clusters by minimizing distances.</p>
+            <a href="https://scikit-learn.org/stable/modules/clustering.html#k-means" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+            <a href="https://www.scaler.com/topics/course/free-unsupervised-learning-course/video/1243/" target="_blank" class="btn btn-primary btn-sm">Lets Deep DIve</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <div class="card-header">Hierarchical Clustering</div>
+          <div class="card-body">
+            <p>Builds a hierarchy of clusters using agglomerative (bottom-up) or divisive (top-down) approaches.</p>
+            <a href="https://scikit-learn.org/stable/modules/clustering.html#hierarchical-clustering" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+            <a href="https://www.scaler.com/topics/course/free-unsupervised-learning-course/video/1256/" target="_blank" class="btn btn-primary btn-sm">Lets Deep DIve</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <div class="card-header">DBSCAN</div>
+          <div class="card-body">
+            <p>A density-based clustering algorithm that groups closely packed points and marks outliers.</p>
+            <a href="https://scikit-learn.org/stable/modules/clustering.html#dbscan" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+            <a href="https://www.scaler.com/topics/course/free-unsupervised-learning-course/video/1262/" target="_blank" class="btn btn-primary btn-sm">Lets Deep DIve</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Deep Learning Basics -->
+  <div class="topic-section">
+    <h2>3️⃣ Deep Learning Basics</h2>
+    <div class="accordion" id="dlBasics">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#introDL">
+            Introduction to Deep Learning
+          </button>
+        </h2>
+        <div id="introDL" class="accordion-collapse collapse show" data-bs-parent="#dlBasics">
+          <div class="accordion-body">
+            <ul>
+              <li><a href="https://cs231n.github.io/" target="_blank">Stanford CS231n (CNNs)</a></li>
+              <li><a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63cUdAG3v311DlGd9t1hV1s" target="_blank">MIT Deep Learning Lectures</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dlModels">
+            Neural Network Models
+          </button>
+        </h2>
+        <div id="dlModels" class="accordion-collapse collapse" data-bs-parent="#dlBasics">
+          <div class="accordion-body">
+            <ul>
+              <li><b>ANN (Artificial Neural Networks):</b> Basic networks with input, hidden, and output layers.</li>
+              <li><b>CNN (Convolutional Neural Networks):</b> Specialized for image recognition and computer vision.</li>
+              <li><b>RNN (Recurrent Neural Networks):</b> Effective for sequential data such as text, speech, or time series.</li>
+              <li><b>Transformers:</b> Modern architecture for NLP and beyond (used in GPT, BERT).</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer py-4 mt-4">
+    <div class="container text-center">
+      <p class="mb-0">© 2025 ML Hub </p>
+    </div>
+  </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
